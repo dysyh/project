@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="createForm.css">
+</head>
+<body>
+    <div id="section">
+    <form action="" id="form" method="">
+    <div class="projectAdresss">
+        <label for="projectAddress" class="projectAddress">&#42 Project Adress</label>
+        <input type="text" id="streetNo" placeholder="Street No" required>
+        <input type="text" id="streetName" placeholder="Street Name" required>
+        <select name="streetType" required>
+            <option value="" disabled selected>Street Type</option>
+            <option value="street">Street</option>
+            <option value="road">Road</option>
+            <option value="drive">Drive</option>
+            <option value="court">Court</option>
+            <option value="avenue">Avenue</option>
+            <option value="close">Close</option>
+            <option value="crescent">Crescent</option>
+            <option value="other">Other</option>
+        </select>
+        <br>
+        <input type="text" id="suburb" placeholder="Suburb" required>
+        <input type="text" id="postCode" placeholder="Post Code" required>
+        <select name="streetType" required>
+            <option value="" disabled selected>State</option>
+            <option value="victoria">VIC</option>
+            <option value="newSouthWales">NSW</option>
+            <option value="queensland">QLD</option>
+            <option value="southAustralia">SA</option>
+            <option value="tasmania">TAS</option>
+            <option value="northernTerritory">NT</option>
+            <option value="westernAustralia">WA</option>
+        </select>
+    </div>
+    <br>
+    <div>
+        <label for="completionDate" class="projectAddress">&#42 Completion Date<label>
+        <input type="date" placeholder="Pick a date">   
+    </div>
+    <br>
+
+    <div>
+        <label for="service">&#42 Service called by</label>
+        <input type="radio" name="owner" id="owner">Owner
+        <input type="radio" name="agent" id="agent">Agent
+        <input type="radio" name="tenant" id="tenant">Tenant
+        <input type="radio" name="other" id="other">Other 
+    </div>
+
+    <br><hr><br>
+
+    <div>
+        <label for="contactName">&#42 Contact Name</label>
+        <input type="text" name="name" id="name" placeholder="Contact Name"> 
+    </div>
+    <br>
+    <div>
+        <label for="contactNumber">&#42 Contact Number</label>
+        <input type="tel" name="number" id="number" placeholder="Contact Number"> 
+    </div>
+    <br>
+    <div>
+        <label for="contactEmail">&#42 Contact Email</label>
+        <input type="email" name="email" id="email" placeholder="Contact Email"> 
+    </div>
+    <br>
+    <div>
+        <label for="availableTime">&#42 Available Time</label>
+        <input type="date" name="date" id="date" placeholder="Pick a date"> 
+        <input type="time" id="gfg" name="Geek_time" placeholder="Enter time" min="16:00" max="22:00">
+    </div>
+
+    <br><hr><br>
+
+    <div>
+        <label for="defectType">&#42 Defect Type</label>
+        <input type="radio" name="owner" id="owner">Owner
+        <input type="radio" name="agent" id="agent">Agent
+        <input type="radio" name="tenant" id="tenant">Tenant
+        <input type="radio" name="other" id="other">Other 
+    </div>
+    <br>
+    <div>
+        <label for="defectDetail">Defect Detail</label>
+        <textarea name="" id="" cols="40" rows="2"></textarea>
+    </div>
+    <br>
+    <div>
+        <input type="file" id="myFile" name="filename">
+        
+    </div>
+    <br>
+    <div>
+        <input type="submit" value="Create">
+        <input type="reset" Value="Cancel">
+    </div>
+    <br><br>
+    
+    </form>
+</div>
+</body>
+</html>
